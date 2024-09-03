@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "server", "server.csproj", "{E24768C9-2131-4347-B9F6-E7CD4D036233}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "server", "server.csproj", "{E24768C9-2131-4347-B9F6-E7CD4D036233}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "Éléments de solution", "{F112C79A-6856-4568-8F96-27881A9C40F8}"
+	ProjectSection(SolutionItems) = preProject
+		nswag.json = nswag.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D879554F-1E6C-44AC-B7BF-B390E30D8077}"
+	ProjectSection(SolutionItems) = preProject
+		nswag.json = nswag.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
